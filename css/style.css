@@ -32,19 +32,31 @@ header {
 } */
 
 .company-info-left {
-    width: 70%;
+    width: 30%;
     float: left;
 }
 
 .company-info-left img {
     position: absolute;
     height: 80%;
-    padding-left: 50px;
-    margin: 5px 0;
+    margin: 5px 20px;
+}
+
+.company-info-center {
+    width: 40%;
+    text-align: center;
+}
+
+.company-info-center img {
+    position: absolute;
+    height: 80%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .company-info-right {
-    width: calc(30% - 32px);
+    width: 30%;
     float: right;
 }
 
