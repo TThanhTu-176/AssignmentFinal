@@ -276,9 +276,14 @@ nav {
 } */
 
 /*CSS SẢN PHẨM*/
+.sanpham {
+    display: block;
+}
+
 .col-25 {
     width: 25%;
     float: left;
+    cursor: pointer;
 }
 
 .prod {
@@ -301,6 +306,12 @@ nav {
     height: 85%;
     position: relative;
 }
+
+/* .prod .images img1 {
+    max-width: 98%;
+    height: 200px;
+    margin-bottom: 10px;
+} */
 
 .prod .images img {
     width: 100%;
@@ -355,6 +366,7 @@ nav {
     position: absolute;
     top: 0px;
     right: 0px;
+    margin: -3px -2px;
     width: 25%;
 }
 
@@ -394,6 +406,7 @@ nav {
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 2;
+    cursor: pointer;
 }
 
 .boxtext h1 {
@@ -451,10 +464,6 @@ footer {
 
 .register {
     text-align: center;
-}
-
-.register form {
-    display: block;
 }
 
 .register h1 {
