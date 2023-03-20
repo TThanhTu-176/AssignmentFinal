@@ -303,7 +303,7 @@ nav {
 }
 
 .prod .images {
-    height: 85%;
+    height: 75%;
     position: relative;
 }
 
@@ -338,6 +338,24 @@ nav {
     background-color: #17529e;
     color: #fff;
     padding: 15px 20px;
+}
+
+.prod .chonmau {
+    height: 10%;
+    position: relative;
+}
+
+.prod .chonmau .mausac {
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    border-radius: 20px;
+    background-color: #111;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    outline: blue solid 2px;
+    padding: 5px;
 }
 
 .prod .about {
