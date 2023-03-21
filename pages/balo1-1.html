@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Balo 1-1</title>
+  <link rel="stylesheet" href="../css/style.css" />
+  <link rel="stylesheet" href="../css/balo1-1.css">
+  <script src="https://kit.fontawesome.com/49f904a2f1.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <!-- JavaScript SDK -->
+  <div id="fb-root"></div>
+  <script async defer crossorigin="anonymous" src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v16.0"
+    nonce="DbPcgwbd"></script>
+  <!-- /JavaScript SDK -->
+
+  <header>
+    <div class="company-info">
+      <div class="company-info-left">
+        <img src="../imgs/ngoi-sao.webp" alt="" />
+      </div>
+
+      <div class="company-info-center">
+        <a href="../index.html"><img src="../imgs/bama.webp" alt="" /></a>
+      </div>
+
+      <div class="company-info-right">
+        <form class="company-info-right-form">
+          <input type="text" placeholder="Tìm kiếm" style="text-align: center" />
+
+          <button><i class="fa-solid fa-cart-plus"></i></button>
+          <button><i class="fa-solid fa-user"></i></button>
+          <button><i class="fa fa-search"></i></button>
+        </form>
+      </div>
+    </div>
+  </header>
+
+  <nav class="menu">
+    <ul>
+      <li><a href="./all.html" target="page">ALL</a></li>
+      <li><a href="./new-arrival.html" target="page">NEW ARRIVAL</a></li>
+      <li><a href="./backpacks.html" target="page">BACKPACKS</a></li>
+      <li><a href="./shoulder-bags.html" target="page">SHOULDER BAGS</a></li>
+      <li>
+        <a href="./tracuudonhang.html" target="page">TRA CỨU ĐƠN HÀNG</a>
+      </li>
+    </ul>
+  </nav>
+
+  <div class="flex-box">
+    <div class="left">
+      <div class="big-img">
+        <img src="../imgs/balo1.webp">
+      </div>
+      <div class="images">
+        <div class="small-img">
+          <img src="../imgs/balo1-2.webp" onclick="showImg(this.src)">
+        </div>
+        <div class="small-img">
+          <img src="../imgs/balo1-3.webp" onclick="showImg(this.src)">
+        </div>
+        <div class="small-img">
+          <img src="../imgs/balo1-4.webp" onclick="showImg(this.src)">
+        </div>
+        <div class="small-img">
+          <img src="../imgs/balo1-5.webp" onclick="showImg(this.src)">
+        </div>
+
+      </div>
+    </div>
+
+    <div class="right">
+
+      <div class="pname">SEOUL BACKPACK - 10 Colors</div>
+      <div class="ratings">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star-half-alt"></i>
+      </div>
+      <div class="product-detail">
+        <h2>Chi tiết về sản phẩm: </h2>
+        <p>- Chất liệu vải chính: Polyester trơn nước (chống thấm 90%)
+          - Vải lót: Vải Nylon nhập khẩu từ Hàn Quốc
+          - Khoá kéo: YKK chính hãng
+          - Logo: Nhựa dẻo PVC
+          - Nhãn mép: Dệt satin
+          - Thiết kế: Bên trong gồm 1 ngăn chính lớn và 1 ngăn chống sốc laptop, ngăn đựng bình nước và nhiều ngăn phụ
+          lớn, nhỏ phụ. Thiết kế đệm lưng, đệm vai dày thoáng khí
+          - Kích thước: 42 x 29 x 12.5 cm (vừa laptop 16 inch)
+        </p>
+      </div>
+      <div class="price">590.000 đ</div>
+      <div class="size">
+        <p> Size :</p>
+        <div class="psize active">60x30cm</div>
+        <div class="psize">80x30cm</div>
+        <div class="psize">90x40cm</div>
+      </div>
+      <div class="quantity">
+        <p>Số lượng :</p>
+        <input type="number" min="1" max="5" value="1">
+      </div>
+      <div class="btn-box">
+        <a href="giohang.html" class="cart-btn">Thêm vào giỏ hàng</button>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="container">
+      <div class="footer-box1">
+        <h3>BAMA ® - Bag for Street Style</h3>
+        <p>Try To Shine™</p>
+        <a href="https://www.facebook.com/bama.bag/"
+          ><i
+            class="fa-brands fa-facebook-f"
+            style="
+              width: 32px;
+              height: 32px;
+              line-height: 32px;
+              font-size: 14px;
+              border: 1px solid #17529e;
+              color: #17529e;
+              border-radius: 4px;
+              text-align: center;
+              font-weight: bold;
+              display: inline-block;
+            "
+          ></i
+        ></a>
+        <a href="https://www.instagram.com/bama.bag/"
+          ><i
+            class="fa-brands fa-instagram"
+            style="
+              width: 32px;
+              height: 32px;
+              line-height: 32px;
+              font-size: 14px;
+              border: 1px solid #17529e;
+              color: #17529e;
+              border-radius: 4px;
+              text-align: center;
+              font-weight: bold;
+              display: inline-block;
+            "
+          ></i
+        ></a>
+      </div>
+      <div class="footer-box2">
+        <h3>Liên kết</h3>
+        <p>Chính sách đổi trả</p>
+        <p>Chính sách vận chuyển</p>
+        <p>Chính sách thanh toán</p>
+        <p>Điều khoản dịch vụ</p>
+      </div>
+      <div class="footer-box3">
+        <h3>Thông tin liên hệ</h3>
+        <div class="contact">
+          <ul>
+            <li>
+              <p>
+                <i class="fa-solid fa-location-dot"></i> Store HCM: 391/5 Trần
+                Hưng Đạo, Phường Cầu Kho, Quận 1, TP.HCM
+              </p>
+            </li>
+            <li>
+              <p><i class="fa-solid fa-phone"></i> 0705.777.760</p>
+            </li>
+            <li>
+              <p><i class="fa-solid fa-fax"></i> 0705.777.760</p>
+            </li>
+            <li>
+              <p>
+                <i class="fa-solid fa-paper-plane"></i> bama.bags@gmail.com
+              </p>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-box4">
+        <h3>Fanpage</h3>
+        <!-- <img src="./imgs/fb-bama.png" alt=""> -->
+        <div
+          class="fb-page"
+          data-href="https://www.facebook.com/bama.bag/"
+          data-tabs="time"
+          data-width=""
+          data-height=""
+          data-small-header="false"
+          data-adapt-container-width="true"
+          data-hide-cover="false"
+          data-show-facepile="true"
+        >
+          <blockquote
+            cite="https://www.facebook.com/bama.bag/"
+            class="fb-xfbml-parse-ignore"
+          >
+            <a href="https://www.facebook.com/bama.bag/">BAMA</a>
+          </blockquote>
+        </div>
+      </div>
+    </div>
+    <div class="footer-box5 row">
+      <p>Copyright © 2023 BAMA BAG</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+    integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
+    crossorigin="anonymous"></script>
+  <script src="https://uhchat.net/code.php?f=452871"></script>
+  <script>
+    let bigImg = document.querySelector('.big-img img');
+    function showImg(pic) {
+      bigImg.src = pic;
+    }
+  </script>
+
+</body>
+
+</html>

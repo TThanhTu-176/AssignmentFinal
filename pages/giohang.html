@@ -4,14 +4,13 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Tra cứu đơn hàng</title>
+    <title>Giỏ hàng</title>
     <link rel="stylesheet" href="../css/style.css" />
     <script
       src="https://kit.fontawesome.com/49f904a2f1.js"
       crossorigin="anonymous"
     ></script>
   </head>
-
   <body>
     <!-- JavaScript SDK -->
     <div id="fb-root"></div>
@@ -42,10 +41,7 @@
               style="text-align: center"
             />
 
-            <!-- <button><i class="fa-solid fa-cart-plus"></i></button> -->
-            <a href="../pages/giohang.html"
-              ><i class="fa-solid fa-cart-plus"></i
-            ></a>
+            <button><i class="fa-solid fa-cart-plus"></i></button>
             <button><i class="fa-solid fa-user"></i></button>
             <button><i class="fa fa-search"></i></button>
           </form>
@@ -65,34 +61,74 @@
       </ul>
     </nav>
 
-    <div class="container-form">
-      <form action="" class="tracuudonhang">
-        <div class="form-group">
-          <label for="">Phương thức kiểm tra: <br /></label>
-          <input type="radio" class="imgs" />Số điện thoại
-          <input type="radio" class="imgs" />Email
+    <div class="wrapper">
+      <h1>Đặt Hàng</h1>
+      <div class="project">
+        <div class="shop">
+          <div class="box">
+            <img src="../imgs/balo18.webp" alt="" />
+            <div class="content">
+              <h3>BAMA Shoulder Bag 2.0 V2 - 8 COLORS</h3>
+              <h4>390.000 đ</h4>
+              <p class="unit">Số Lượng: <input value="2" /></p>
+              <p class="btn-area">
+                <i class="fa fa-trash"></i>
+                <span class="btn2">Xóa sản phẩm</span>
+              </p>
+            </div>
+          </div>
+          <div class="box">
+            <img src="../imgs/balo22.webp" alt="" />
+            <div class="content">
+              <h3>BAMA Large Quilted Collection 22 - 5 COLORS</h3>
+              <h4>650.000</h4>
+              <p class="unit">Số Lượng: <input value="1" /></p>
+              <p class="btn-area">
+                <i class="fa fa-trash"></i>
+                <span class="btn2">Xóa sản phẩm</span>
+              </p>
+            </div>
+          </div>
+          <div class="box">
+            <img src="../imgs/balo26.webp" alt="" />
+            <div class="content">
+              <h3>BAMA DBR Bumbag - 8 COLORS</h3>
+              <h4>450.000 đ</h4>
+              <p class="unit">Số Lượng: <input value="1" /></p>
+              <p class="btn-area">
+                <i class="fa fa-trash"></i>
+                <span class="btn2">Xóa sản phẩm</span>
+              </p>
+            </div>
+          </div>
         </div>
+        <div class="right-bar">
+          <p><span>Tổng cộng</span> <span>250k</span></p>
+          <hr />
+          <p><span>Thuế (5%)</span> <span>20k</span></p>
+          <hr />
+          <p><span>Phí vận chuyển</span> <span>30k</span></p>
+          <hr />
+          <p><span>Tổng cộng</span> <span>300k</span></p>
 
-        <div class="form-group">
-          <label for="">Thông tin đặt hàng:</label>
-          <input
-            type="text"
-            name="username"
-            class="form-control"
-            placeholder="Email or phone"
-          />
+          <a href="#"><i class="fa fa-shopping-cart"> Thanh Toán</i></a>
+          <hr />
         </div>
+      </div>
 
-        <div class="form-group">
-          <label for=""
-            >Nếu quý khách có bất kỳ thắc mắc nào, xin vui lòng gọi <br />
-            <strong>0873 001 920</strong> để được hổ trợ nhanh nhất</label
-          >
+      <section>
+        <div class="register">
+          <h1>Đăng ký thành viên</h1>
+          <p>
+            Trở thành người đầu tiên nhận được những thông tin khuyến mãi từ
+            chúng tôi
+          </p>
+          <div class="form">
+            <input type="email" placeholder="Nhập email của bạn..." />
+            <button>Đăng ký</button>
+          </div>
         </div>
-        <hr />
-        <button class="tracuudonhang-submit">Xem ngay</button>
-        <button type="reset" class="tracuudonhang-submit">Nhập lại</button>
-      </form>
+      </section>
     </div>
 
     <footer>
@@ -168,7 +204,7 @@
         </div>
         <div class="footer-box4">
           <h3>Fanpage</h3>
-          <!-- <img src="../imgs/fb-bama.png" alt=""> -->
+          <!-- <img src="./imgs/fb-bama.png" alt=""> -->
           <div
             class="fb-page"
             data-href="https://www.facebook.com/bama.bag/"
