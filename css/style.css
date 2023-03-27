@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Futura', sans-serif !important;
+}
+
 .row {
     width: 100%;
     float: left;
@@ -305,7 +309,7 @@ nav {
 }
 
 .prod .images {
-    height: 85%;
+    height: 75%;
     position: relative;
 }
 
@@ -321,7 +325,8 @@ nav {
 }
 
 .prod .images img,
-.prod .images h3 {
+.prod .images h3,
+.prod .chonmau .fa-circle {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -342,10 +347,16 @@ nav {
     padding: 15px 20px;
 }
 
-/* .prod .chonmau {
+.prod .chonmau {
     height: 10%;
     position: relative;
-} */
+}
+
+.prod .chonmau img {
+    margin: 0 -9px;
+}
+
+.prod .chonmau .fa-circle {}
 
 /* .prod .chonmau .mausac {
     position: absolute;
